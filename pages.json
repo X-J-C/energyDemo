@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/device/device",
+			"style": {
+				"navigationBarTitleText": "设备数据"
+			}
+		},
+		{
+			"path": "pages/touch/touch",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "珠海横琴",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{
+				"titleNView":false // 去掉APP、H5的顶部导航
+			}
+	},
+	"tabBar": {
+			"color":"#8a8a8a",
+			"selectedColor":"#2986fe",
+			"borderStyle":"black",
+			"backgroundColor":"#ffffff",
+			"list": [
+				{
+					"pagePath":"pages/index/index",
+					"text":"首页",
+					"iconPath":"static/index.png",
+					"selectedIconPath":"static/index2x.png"
+				},
+				{
+					"pagePath":"pages/device/device",
+					"text":"设备数据",
+					"iconPath":"static/device.png",
+					"selectedIconPath":"static/device2x.png"
+				},
+				{
+					"pagePath":"pages/touch/touch",
+					"text":"联系我们",
+					"iconPath":"static/relate.png",
+					"selectedIconPath":"static/relate2x.png"
+				},
+				{
+					"pagePath":"pages/me/me",
+					"text":"我的",
+					"iconPath":"static/me.png",
+					"selectedIconPath":"static/me2x.png"
+				}
+				
+			]	
+		 }
+
+}

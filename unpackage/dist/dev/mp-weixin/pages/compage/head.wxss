@@ -1,0 +1,49 @@
+
+.uni-margin-wrap {
+		width: 690rpx;
+		margin: 0 30rpx;
+}
+.swiper {
+		height: 300rpx;
+}
+.swiper-item {
+		display: block;
+		height: 300rpx;
+		line-height: 300rpx;
+		text-align: center;
+}
+.swiper-list {
+		margin-top: 40rpx;
+		margin-bottom: 0;
+}
+.uni-common-mt {
+		margin-top: 60rpx;
+		position: relative;
+}
+.info {
+		position: absolute;
+		right: 20rpx;
+}
+.uni-padding-wrap {
+		width: 100%;
+		padding: 10rpx 0;
+}
+.example-body{
+	    text-align: center;
+		background-color: #fff;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
+}
+.num{
+	  font-weight: bold;
+	  font-size: 36rpx;
+}
+.image{
+	  height: 100%;
+	  width: 100%;
+}
+	
+	
+	
+	
+
